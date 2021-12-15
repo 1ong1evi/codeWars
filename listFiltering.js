@@ -5,7 +5,7 @@ function filter_list(l) {
     let i = [];
     l.forEach(function (x) {
         if (typeof x === 'number') { 
-            i.push(x);;
+            i.push(x);
         }
     });
     return i;

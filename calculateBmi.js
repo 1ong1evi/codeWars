@@ -1,5 +1,6 @@
 function bmi(weight, height) {
     
+  //determines if the weight and height provided is a healthy bmi or not
     if(weight / (height * height) <= 18.5) {
       return 'Underweight';
     } else if(weight / (height * height) <= 25.0) {

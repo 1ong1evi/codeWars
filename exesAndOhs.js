@@ -1,7 +1,4 @@
 function XO(str) {
-    //check to see if the string has the same number of xs and os
-  // o counter and x counter
-//return a boolean and be case insensitive
   let x = 0;
   let o = 0
     for(let i = 0; i < str.length; i++) {

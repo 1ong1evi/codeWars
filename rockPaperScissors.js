@@ -1,4 +1,5 @@
 const rps = (p1, p2) => {
+    //holding variables for the three elements
     let r = 'rock';
     let p = 'paper';
     let s = 'scissors';
